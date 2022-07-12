@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Option Menu</string>
+    <string name="search_hint">Masukan Kata</string>
 </resources>
