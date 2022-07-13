@@ -7,15 +7,35 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import com.syafei.optionmenu.R
 import com.syafei.optionmenu.fragment.MenuFragment
+import com.syafei.optionmenu.util.SectionsPagerAdapter
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // region view pager 2
+        val sectionsPagerAdapter = SectionsPagerAdapter(this)
+        //from actvity
+        sectionsPagerAdapter.appName = resources.getString(R.string.app_name)
+
+        val viewPager: ViewPager2 = findViewById(R.id.view_pager)
+        viewPager.adapter = sectionsPagerAdapter
+        val tabs: TabLayout = findViewById(R.id.tab_layout)
+        TabLayoutMediator(tabs, viewPager) { tab, position ->
+            tab.text = resources.getString(TAB_TITLES[position])
+        }.attach()
+
+        supportActionBar?.elevation = 0f
+        //endregion
     }
 
 
@@ -63,5 +83,15 @@ class MainActivity : AppCompatActivity() {
             }
             else -> return true
         }
+    }
+
+    companion object {
+        @StringRes
+        private val TAB_TITLES = intArrayOf(
+            R.string.tab_text_1,
+            R.string.tab_text_2,
+            // if with one fragment added become 3 tabs
+            R.string.tab_text_1
+        )
     }
 }

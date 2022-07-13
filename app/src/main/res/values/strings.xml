@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Option Menu</string>
     <string name="search_hint">Masukan Kata</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Menu</string>
+    <string name="tab_text_3">Profile</string>
+    <string name="content_tab_text">This is Tab %1$d</string>
 </resources>
