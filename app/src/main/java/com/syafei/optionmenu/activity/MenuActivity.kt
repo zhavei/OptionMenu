@@ -3,6 +3,7 @@ package com.syafei.optionmenu.activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.syafei.optionmenu.databinding.ActivityMenuBinding
+import org.json.JSONObject
 
 class MenuActivity : AppCompatActivity() {
 
@@ -12,6 +13,7 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
     }
 }

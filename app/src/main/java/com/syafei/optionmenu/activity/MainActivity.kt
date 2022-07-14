@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
@@ -36,6 +37,17 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.elevation = 0f
         //endregion
+
+        toActivityTwo()
+    }
+
+    private fun toActivityTwo() {
+        val btnIntent = findViewById<Button>(R.id.btn_main_activity)
+        btnIntent.setOnClickListener {
+            val intent = Intent(this@MainActivity, SecondActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 
