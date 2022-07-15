@@ -3,14 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project latihan/belajar_fundamental_aplikasi_android_OptionMenu/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.152" />
-        <entry key="..\:/Project latihan/belajar_fundamental_aplikasi_android_OptionMenu/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Project latihan/belajar_fundamental_aplikasi_android_OptionMenu/app/src/main/res/layout/activity_second.xml" value="0.15534420289855072" />
-        <entry key="..\:/Project latihan/belajar_fundamental_aplikasi_android_OptionMenu/app/src/main/res/layout/fragment_menu.xml" value="0.13994565217391305" />
-        <entry key="..\:/Project latihan/belajar_fundamental_aplikasi_android_OptionMenu/app/src/main/res/menu/option_menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/activity_listquotes.xml" value="0.1" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/activity_menu.xml" value="0.33152173913043476" />
-        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/fragment_menu.xml" value="0.33152173913043476" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/activity_second.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/fragment_menu.xml" value="0.33" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/item_list_quote.xml" value="0.33" />
+        <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/layout/item_list_quote2.xml" value="0.2" />
         <entry key="..\:/Users/LenovoPC/AndroidStudioProjects/OptionMenu/app/src/main/res/menu/option_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
