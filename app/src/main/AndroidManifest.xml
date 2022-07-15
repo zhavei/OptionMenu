@@ -27,6 +27,7 @@
         <activity android:name=".activity.MenuActivity"/>
         <activity android:name=".activity.SecondActivity" />
         <activity android:name=".activity.ListQuotesActivity" />
+        <activity android:name=".activity.ThirdActivity" />
     </application>
 
 </manifest>

@@ -39,6 +39,15 @@ class MainActivity : AppCompatActivity() {
         //endregion
 
         toActivityTwo()
+        toActivityThree()
+    }
+
+    private fun toActivityThree() {
+        val btnIntent3 = findViewById<Button>(R.id.btn_main_activity3)
+        btnIntent3.setOnClickListener {
+            val intent = Intent(this, ThirdActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun toActivityTwo() {
